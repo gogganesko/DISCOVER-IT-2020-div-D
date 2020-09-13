@@ -1,0 +1,7 @@
+arr = input().split(" ")
+a = int(arr[0])
+b = int(arr[1])
+c = int(arr[2])
+d = int(arr[3])
+result = (((a*d) + (b*c)) / (b*d))%((10**9)+7)
+print(int(result))
